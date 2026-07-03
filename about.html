@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About Us | Tulsa Home Painting</title>
+<meta name="description" content="Tulsa Home Painting is a locally owned painting company serving Tulsa homeowners with careful, reliable interior and exterior painting." />
+<link rel="canonical" href="https://www.tulsahomepainting.com/about.html" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css" />
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink: '#1C2321', linen: '#FAF6EF', paper: '#F3EEE3',
+          brass: '#A9803D', brassdark: '#8C6A31', forest: '#33473D', stone: '#6B6459',
+        },
+        fontFamily: { display: ['Fraunces', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] },
+        boxShadow: { soft: '0 20px 60px -20px rgba(28,35,33,0.25)', card: '0 10px 30px -12px rgba(28,35,33,0.18)' },
+      },
+    },
+  };
+</script>
+</head>
+<body class="bg-linen text-ink antialiased">
+
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-ink focus:text-linen focus:px-4 focus:py-2 focus:rounded-lg focus:z-50">Skip to content</a>
+
+<header id="site-nav" class="fixed top-0 inset-x-0 z-40 transition-colors duration-300">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+    <div class="flex items-center justify-between h-20">
+      <a href="index.html" class="font-display text-xl md:text-2xl tracking-tight text-ink">
+        Tulsa Home <span class="text-brass">Painting</span>
+      </a>
+      <nav class="hidden lg:flex items-center gap-7 text-[15px] font-medium text-ink/80">
+        <a href="services.html" class="hover:text-ink transition-colors">Services</a>
+        <a href="gallery.html" class="hover:text-ink transition-colors">Gallery</a>
+        <a href="about.html" class="text-ink">About</a>
+        <a href="reviews.html" class="hover:text-ink transition-colors">Reviews</a>
+        <a href="service-areas.html" class="hover:text-ink transition-colors">Service Areas</a>
+        <a href="contact.html" class="hover:text-ink transition-colors">Contact</a>
+      </nav>
+      <div class="hidden lg:flex items-center gap-5">
+        <a href="tel:19189861615" class="text-[15px] font-semibold text-ink hover:text-brass transition-colors">(918) 986-1615</a>
+        <a href="contact.html" class="inline-flex items-center rounded-full bg-ink text-linen text-[15px] font-semibold px-5 py-2.5 hover:bg-forest transition-colors">
+          Get a Free Estimate
+        </a>
+      </div>
+      <button id="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" class="lg:hidden p-2 -mr-2 text-ink" aria-label="Toggle menu">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden lg:hidden flex-col gap-1 pb-6 text-ink">
+      <a href="services.html" class="py-2.5 border-b border-ink/10">Services</a>
+      <a href="gallery.html" class="py-2.5 border-b border-ink/10">Gallery</a>
+      <a href="about.html" class="py-2.5 border-b border-ink/10">About</a>
+      <a href="reviews.html" class="py-2.5 border-b border-ink/10">Reviews</a>
+      <a href="service-areas.html" class="py-2.5 border-b border-ink/10">Service Areas</a>
+      <a href="contact.html" class="py-2.5 border-b border-ink/10">Contact</a>
+      <a href="tel:19189861615" class="pt-4 font-semibold text-brassdark">Call (918) 986-1615</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="pt-32 pb-14 md:pt-40 md:pb-16 bg-texture-light">
+    <div class="max-w-4xl mx-auto px-6 lg:px-10">
+      <p class="text-sm font-semibold tracking-wide text-brassdark uppercase">About us</p>
+      <h1 class="font-display text-4xl md:text-6xl leading-tight mt-3 text-ink">Built on doing the job right, every time</h1>
+      <p class="mt-7 text-lg text-stone leading-relaxed max-w-2xl">Tulsa Home Painting started with a simple idea: homeowners deserve a painting company that shows up when it says it will, protects their home like it's their own, and stands behind the work once the crew is gone.</p>
+      <p class="mt-5 text-lg text-stone leading-relaxed max-w-2xl">We're based right here in Tulsa. Every estimate is honest, every job site is left clean, and every project — big or small — gets the same level of attention to prep, technique, and finish.</p>
+    </div>
+  </section>
+
+  <section class="pb-16 md:pb-20 bg-texture-light">
+    <div class="max-w-4xl mx-auto px-6 lg:px-10">
+      <div class="aspect-[16/9] rounded-3xl overflow-hidden shadow-soft bg-paper">
+        <!-- IMAGE: painter-crew-working-on-site.jpg — see images/README.md -->
+        <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=1600&auto=format&fit=crop" alt="Painting crew carefully preparing a room before painting" class="w-full h-full object-cover" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-paper py-16 bg-texture-light">
+    <div class="max-w-4xl mx-auto px-6 lg:px-10 grid sm:grid-cols-3 gap-8 text-center">
+      <div>
+        <p class="font-display text-4xl text-brass">4.9★</p>
+        <p class="mt-2 text-sm text-stone">Google rating, 39 reviews</p>
+      </div>
+      <div>
+        <p class="font-display text-4xl text-brass">100%</p>
+        <p class="mt-2 text-sm text-stone">Licensed &amp; insured work</p>
+      </div>
+      <div>
+        <p class="font-display text-4xl text-brass">Tulsa</p>
+        <p class="mt-2 text-sm text-stone">Locally owned and operated</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-24 bg-forest text-linen text-center bg-texture-dark">
+    <div class="max-w-2xl mx-auto px-6 lg:px-10">
+      <h2 class="font-display text-3xl md:text-5xl leading-tight">Let's talk about your project</h2>
+      <p class="mt-5 text-linen/75 text-lg">Free estimates, straightforward pricing, and a crew that treats your home with respect.</p>
+      <div class="mt-9 flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="contact.html" class="inline-flex justify-center items-center rounded-full bg-brass text-ink font-semibold px-8 py-4 hover:bg-linen transition-colors">Get Your Free Estimate</a>
+        <a href="tel:19189861615" class="inline-flex justify-center items-center rounded-full border border-linen/30 text-linen font-semibold px-8 py-4 hover:border-linen/60 transition-colors">Call (918) 986-1615</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="bg-ink text-linen/70 pt-16 pb-10 bg-texture-dark">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-12">
+    <div>
+      <p class="font-display text-xl text-linen">Tulsa Home <span class="text-brass">Painting</span></p>
+      <p class="mt-4 text-sm leading-relaxed max-w-xs">Reliable interior, exterior, and cabinet painting for Tulsa homeowners. Licensed, insured, and locally owned.</p>
+    </div>
+    <div>
+      <p class="text-linen font-semibold text-sm mb-4">Services</p>
+      <ul class="space-y-2.5 text-sm">
+        <li><a href="services.html" class="hover:text-linen transition-colors">Interior Painting</a></li>
+        <li><a href="services.html" class="hover:text-linen transition-colors">Exterior Painting</a></li>
+        <li><a href="services.html" class="hover:text-linen transition-colors">Cabinet Painting</a></li>
+        <li><a href="services.html" class="hover:text-linen transition-colors">Drywall Repair</a></li>
+        <li><a href="services.html" class="hover:text-linen transition-colors">Commercial Painting</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="text-linen font-semibold text-sm mb-4">Company</p>
+      <ul class="space-y-2.5 text-sm">
+        <li><a href="about.html" class="hover:text-linen transition-colors">About</a></li>
+        <li><a href="gallery.html" class="hover:text-linen transition-colors">Gallery</a></li>
+        <li><a href="reviews.html" class="hover:text-linen transition-colors">Reviews</a></li>
+        <li><a href="service-areas.html" class="hover:text-linen transition-colors">Service Areas</a></li>
+        <li><a href="contact.html" class="hover:text-linen transition-colors">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="text-linen font-semibold text-sm mb-4">Get in touch</p>
+      <ul class="space-y-2.5 text-sm">
+        <li><a href="tel:19189861615" class="hover:text-linen transition-colors">(918) 986-1615</a></li>
+        <li>Tulsa, Oklahoma</li>
+        <li>Mon–Sat, 7am–6pm</li>
+      </ul>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 mt-16 pt-8 border-t border-linen/10 flex flex-col sm:flex-row justify-between gap-4 text-xs text-linen/50">
+    <p>&copy; <span id="year"></span> Tulsa Home Painting. All rights reserved.</p>
+    <p>Tulsa, OK &middot; Licensed &amp; Insured</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
